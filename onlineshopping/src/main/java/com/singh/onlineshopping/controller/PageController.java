@@ -27,7 +27,7 @@ public class PageController {
 		mv.addObject("categories", categoryDAO.list());
 		mv.addObject("userClickHome", true);
 		
-		return mv;
+		return mv; 
 	}
 
 
