@@ -19,7 +19,7 @@ public class PageController {
 	private CategoryDao categoryDAO;
  
 	
-@RequestMapping(value= { "/home", "/homepage"})
+@RequestMapping(value= { "/home", "/homepage", "/"})
 	public ModelAndView Index()
 	{
 		ModelAndView mv= new ModelAndView("homepage");
